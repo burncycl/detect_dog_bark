@@ -26,4 +26,7 @@ If you get the following error
 ```
 vlcpulse audio output error: PulseAudio server connection failure: Connection refused
 ```
-Try killing and restarting Pulse Audio. Command
+Try killing and restarting Pulse Audio with the following script.
+```
+./bounce_pulseaudio.sh
+```
