@@ -23,7 +23,7 @@ class DetectDogBark:
         self.chunk = 1024 # This may need to be tuned to 512, 2048, or 4096.
         self.loop = None # Pulse from both ends of the strip. Default None, self.main() sets this.
         self.sensitivity = 1.3 # Sensitivity to sound.
-        self.ambient_db = 10000
+        self.ambient_db = 10200
         self.sample_rate = 1024
 
         # VLC
