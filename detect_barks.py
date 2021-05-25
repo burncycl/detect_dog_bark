@@ -83,7 +83,8 @@ class DetectDogBark:
 
     def play_sound(self):
         self.lock = True
-        sounds = ['Dog-whistle-sound-11.200-Hz.wav', 'Dog-whistle-sound-12.200-Hz.wav', 'Dog-whistle-sound-16.000-Hz.wav', 'Dog-whistle-sound-20.000-Hz.wav']
+        sounds = ['Dog-whistle-sound-16.000-Hz.wav', 'Dog-whistle-sound-20.000-Hz.wav']
+        #sounds = ['Dog-whistle-sound-11.200-Hz.wav', 'Dog-whistle-sound-12.200-Hz.wav', 'Dog-whistle-sound-16.000-Hz.wav', 'Dog-whistle-sound-20.000-Hz.wav']
         #sounds = ['./notify1.wav', './notify2.wav'] # Used for Testing.
         for sound in sounds:
             media = self.vlc_instance.media_new(sound)
