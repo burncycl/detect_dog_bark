@@ -5,7 +5,7 @@ Script use Root-Mean-Squared and some normalization to detect sound "loudness". 
 ### Installation
 Install VLC Player as external dependency
 ```
-apt install vlc
+sudo ./install.sh
 ```
 
 ### Run Python Virtual Environment

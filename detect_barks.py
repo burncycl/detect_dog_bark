@@ -3,7 +3,7 @@
 # 2021/05 BuRnCycL
 # Script detects if sound crosses certain decibal threshold. Uses Root-Mean-Squared and some normalization to make determination. 
 # Threshold is set using self.ambient_db
-# External Dependencies # apt install vlc
+# External Dependencies # apt install vlc portaudio19-dev pulseaudio libatlas-base-dev
 # Dependencies # pip3 install python-vlc numpy pyaudio
 
 import pyaudio as pa
