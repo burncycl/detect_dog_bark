@@ -2,7 +2,7 @@
 
 Script use Root-Mean-Squared and some normalization to detect sound "loudness". This triggers VLC method to play sounds. These sounds can be Dog Whistles at different frequencies. 
 
-Use self.ambiet_db to set the threshold for playing dog whistle. 
+Use self.ambient_db to set the threshold for playing dog whistle. 
 
 Assumes you're running Ubuntu 18.04+ or Raspberry Pi Buster
 
