@@ -22,6 +22,11 @@ source ./init.sh
 python3 detect_barks.py
 ```
 
+### Normaliztion  
+Reference: https://stackoverflow.com/questions/40963659/root-mean-square-of-a-function-in-python
+
+"Warning: in numpy, if the number are too big in comparison of their type (dtype in python), the power function may return negative values. To avoid this, it is sometimes useful to cast the values. Example: >>np.sqrt(np.mean(y.astype(np.dtype(np.int64)) ** 2 )). Not very nice in the code, but it will do the work!"
+
 ### Known Issues
 If you get the following error
 ```
